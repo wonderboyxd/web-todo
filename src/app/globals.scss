@@ -1,0 +1,27 @@
+:root {
+  //Background colors
+
+  --main-background: #0d1723;
+  --secondary-background: #41504d;
+
+  //Text colors
+
+  --main-text-color: #fff;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 16px;
+}
+
+.main-layout {
+  background-color: var(--main-background);
+}

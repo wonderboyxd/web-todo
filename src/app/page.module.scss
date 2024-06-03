@@ -1,0 +1,14 @@
+.homePage {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &Form {
+        max-width: 500px;
+        width: 100%;
+        padding: 16px;
+        border-radius: 16px;
+        background-color: var(--secondary-background)
+    }
+}
